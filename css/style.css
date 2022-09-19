@@ -26,7 +26,6 @@ html {
 }
 
 .top-list {
-    color: white;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -35,6 +34,12 @@ html {
 .options {
     padding-right: 30px;
     font-size: 15px;
+    text-decoration: none;
+}
+
+.options a {
+    text-decoration: none;
+    color: white;
 }
 
 .btn-login {
@@ -42,6 +47,10 @@ html {
     background-color: white;
     border-radius: 15px;
     font-size: 15px;
+}
+
+.btn-login:hover {
+    cursor: pointer;
 }
 
 header {
@@ -70,7 +79,7 @@ header h1 {
 
 .browser {
     color: white;
-    background-color: black;
+    background-color: #23272A;
 }
 
 .btn {
