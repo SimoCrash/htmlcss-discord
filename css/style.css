@@ -244,3 +244,20 @@ footer li {
 .social-logo li {
     padding-right: 30px;
 }
+
+.bottom-footer {
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.wave {
+    color: #F6F6F6;
+    margin-bottom: -10px;
+}
+
+.wave-rev {
+    background-color: #F6F6F6;
+}
