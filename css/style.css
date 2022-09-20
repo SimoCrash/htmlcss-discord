@@ -157,3 +157,36 @@ main p{
 .text-main-b p {
     margin-top: 2em;
 }
+
+.main-container-bottom {
+    padding: 4em .5em;
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.text-main-bottom {
+    margin-top: 2em;
+}
+
+.text-main-bottom p {
+    margin-top: 2em;
+}
+
+.bottom-section {
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 4em .5em;
+}
+
+.bottom-section h2 {
+    margin-bottom: 2em;
+}
+
+.btn-bottom {
+    padding: 15px 20px;
+    background-color: #7289DA;
+    color: white;
+    border-radius: 30px;
+}
