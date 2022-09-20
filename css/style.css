@@ -191,16 +191,46 @@ main p{
     border-radius: 30px;
 }
 
+/* footer */
+
 footer {
     background-color: #23272A;
 }
 
-.foot-list {
+footer ul {
+    padding: 1em;
+}
+
+.back-bottom {
     padding-top: 2em;
     color: white;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.social-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-list li {
+    list-style: none;
+}
+
+.foot-list h2 {
+    color: #7289DA;
 }
 
 .language {
-    background-color: #23272A;
     color: white;
+}
+
+.ita {
+    height: 1em;
+}
+
+.social-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
