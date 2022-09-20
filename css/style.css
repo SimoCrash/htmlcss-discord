@@ -99,6 +99,18 @@ main {
 }
 
 .main-container-t {
+    margin: auto;
+    max-width: 1100px;
     display: flex;
     flex-direction: row;
+}
+
+
+.text-main {
+    text-align: left;
+    margin-left: 60px;
+}
+
+.text-main p {
+    margin-top: 1em;
 }
