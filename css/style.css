@@ -198,14 +198,18 @@ footer {
 }
 
 footer ul {
-    padding: 1em;
+    padding-top: 1em;
+    padding-right: 2em;
 }
 
 .back-bottom {
-    padding-top: 2em;
+    padding: 2em 0;
     color: white;
     max-width: 1200px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
 }
 
 .social-list {
@@ -233,5 +237,10 @@ footer li {
 .social-logo {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    max-width: 70%;
+}
+
+.social-logo li {
+    padding-right: 30px;
 }
