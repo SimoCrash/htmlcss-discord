@@ -194,3 +194,13 @@ main p{
 footer {
     background-color: #23272A;
 }
+
+.foot-list {
+    padding-top: 2em;
+    color: white;
+}
+
+.language {
+    background-color: #23272A;
+    color: white;
+}
