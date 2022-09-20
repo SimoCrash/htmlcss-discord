@@ -213,11 +213,12 @@ footer ul {
     flex-direction: column;
 }
 
-.social-list li {
+footer li {
     list-style: none;
+    margin-top: 1em;
 }
 
-.foot-list h2 {
+.back-bottom li:first-child {
     color: #7289DA;
 }
 
