@@ -131,7 +131,7 @@ main p{
     margin-right: 60px;
 }
 
-.text-main-c p {
+.text-main-c p, .text-main-bottom, .text-main-bottom p, .text-main-b p  {
     margin-top: 2em;
 }
 
@@ -154,9 +154,6 @@ main p{
     margin-right: 60px;
 }
 
-.text-main-b p {
-    margin-top: 2em;
-}
 
 .main-container-bottom {
     padding: 4em .5em;
@@ -165,13 +162,6 @@ main p{
     text-align: center;
 }
 
-.text-main-bottom {
-    margin-top: 2em;
-}
-
-.text-main-bottom p {
-    margin-top: 2em;
-}
 
 .bottom-section {
     background-image: url("../img/stars.svg");
@@ -226,7 +216,7 @@ footer li {
     color: #7289DA;
 }
 
-.language {
+.language, .no-color {
     color: white;
 }
 
@@ -260,4 +250,6 @@ footer li {
 
 .wave-rev {
     background-color: #F6F6F6;
+    transform: rotate(180);
 }
+
